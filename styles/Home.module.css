@@ -1,0 +1,156 @@
+.navigation {
+  grid-template-areas: ". logo logo logo . . . . sp a s n t .";
+}
+
+.body {
+  grid-template-areas:
+    ". hInfo hInfo hInfo hInfo hInfo hInfo . hImg hImg hImg hImg hImg . "
+    ". spHead spHead spHead spHead spHead spHead spHead spHead spHead spHead spHead spHead . "
+    ". sp sp sp sp sp sp sp sp sp sp sp sp . "
+    ". aHead aHead aHead aHead aHead aHead aHead aHead aHead aHead aHead aHead . "
+    ". aInfo aInfo aInfo aInfo aInfo aInfo aInfo aInfo aInfo aInfo aInfo aInfo . "
+    ". s_one s_one s_one s_one s_one s_one s_two s_two s_two s_two s_two s_two ."
+    ". s_three s_three s_three s_three s_three s_three s_four s_four s_four s_four s_four s_four ."
+    ". tHead tHead tHead tHead tHead tHead tHead tHead tHead tHead tHead tHead . "
+    ". tInfo tInfo tInfo tInfo tInfo tInfo tInfo tInfo tInfo tInfo tInfo tInfo . "
+    ". foot foot foot foot foot foot foot foot foot foot foot foot . ";
+}
+
+/* Header Start */
+.logo {
+  grid-area: logo;
+}
+
+.about {
+  grid-area: a;
+}
+
+.speakers {
+  grid-area: sp;
+}
+
+.sponsors {
+  grid-area: s;
+}
+
+.next_event {
+  grid-area: n;
+}
+
+.tickets {
+  grid-area: t;
+}
+
+/* Header End */
+
+/* Hero Start */
+.hero_image {
+  grid-area: hImg;
+}
+
+.hero_content {
+  grid-area: hInfo;
+  justify-self: center;
+  align-self: center;
+}
+/* Hero End */
+
+/* Sponsors Start */
+
+.sponsorsHeader {
+  grid-area: spHead;
+  justify-self: center;
+}
+
+.sponsor_container {
+  grid-area: sp;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sponsor_container > article {
+  padding: 20px;
+}
+
+.one_sponsor {
+  grid-area: sp_one;
+}
+
+.two_sponsor {
+  grid-area: sp_two;
+}
+
+.three_sponsor {
+  grid-area: sp_three;
+}
+
+/* Start About */
+.speakers_header {
+  grid-area: aHead;
+  justify-self: center;
+}
+
+.speaker_one {
+  grid-area: s_one;
+}
+
+.speaker_two {
+  grid-area: s_two;
+}
+
+.speaker_three {
+  grid-area: s_three;
+}
+
+.speaker_four {
+  grid-area: s_four;
+}
+
+.sspeakers_info {
+  grid-area: aInfo;
+  justify-self: center;
+}
+
+.speakers_info > p {
+  padding-bottom: 20px;
+}
+
+/* End About */
+
+/* Tickets Start */
+.ticketHeader {
+  grid-area: tHead;
+  justify-self: center;
+}
+
+.ticketInfo {
+  grid-area: tInfo;
+}
+
+/* Tickets End */
+
+/*  Footer Start */
+.footer {
+  align-items: center;
+  justify-content: center;
+  grid-template-areas: ". cond cond cond cond cond cond cond mInfo mInfo mInfo mInfo mInfo . ";
+}
+
+.more_info {
+  display: flex;
+  flex-grow: 1;
+  list-style: none;
+  grid-area: mInfo;
+  justify-content: center;
+}
+
+.more_info > ul {
+  list-style: none;
+  display: flex;
+}
+
+.conduct {
+  grid-area: cond;
+}
+
+/* Footer End */

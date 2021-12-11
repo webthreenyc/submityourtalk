@@ -1,3 +1,12 @@
 /* index.pcss */
 @import "open-props/postcss/style";
 @import "open-props/postcss/normalize";
+
+.container {
+  display: grid;
+  grid-template-columns: 40px repeat(12, 1fr) 40px;
+  column-gap: 1.5%;
+  grid-template-rows: 1fr;
+  margin: 0 auto;
+  max-width: 1850px;
+}
