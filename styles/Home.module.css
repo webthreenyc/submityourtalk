@@ -2,6 +2,7 @@
   background-size: 100%;
   background-position: center;
   background-image: url(../images/bbburst.svg);
+  row-gap: var(--size-8);
   grid-template-areas:
     "hero hero hero hero hero hero hero hero hero hero hero hero hero hero"
     ". spHead spHead spHead spHead spHead spHead spHead spHead spHead spHead spHead spHead . "
@@ -60,13 +61,53 @@
   justify-self: center;
 }
 
+.sponsorsHeader {
+  font-size: var(--font-size-7);
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-7);
+  letter-spacing: var(--font-letterspacing-0);
+}
+
 .sponsor_container {
   grid-area: sp;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .sponsor_container > article {
+  padding: 20px;
+  margin-bottom: var(--size-8);
+  flex-basis: var(--size-content-1);
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-2);
+  background: var(--surface-3);
+  border: 1px solid var(--surface-1);
+  padding: var(--size-4);
+  border-radius: var(--radius-3);
+  box-shadow: var(--shadow-2);
+  flex-basis: 350px;
+}
+
+.sponsor_container > article h3 {
+  line-height: var(--font-lineheight-1);
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-7);
+}
+
+.sponsor_container > article:first-child img {
+  border-radius: var(--radius-blob-3);
+  padding: 20px;
+}
+
+.sponsor_container > article:nth-child(2) img {
+  border-radius: var(--radius-blob-1);
+  padding: 20px;
+}
+
+.sponsor_container > article:nth-child(3) img {
+  border-radius: var(--radius-blob-4);
   padding: 20px;
 }
 

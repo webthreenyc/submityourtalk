@@ -4,7 +4,7 @@ Credit: [BrookylnJS speakers.md](https://github.com/brooklynjs/brooklynjs.github
 
 This page was taken and edited from BrooklynJS speakers.md for webthree.nyc
 
-## Who can submit talks to BrooklynJS?
+## Who can submit talks to webthree.nyc?
 
 We welcome & encourage _everyone_ to submit a talk!
 Whether you have been writing code for 20 years or few days, experienced or 1st time speaker\*, we want to hear what you are excited about.

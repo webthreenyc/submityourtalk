@@ -31,8 +31,8 @@ const Home: NextPage = () => {
         <h2 className={css.sponsorsHeader}>Sponsors</h2>
         <section className={css.sponsor_container}>
           <article className={css.one_sponsor}>
-            <h3>Unstoppable Domains</h3>
             <img src="https://placekitten.com/250/250" alt="logo" />
+            <h3>Unstoppable Domains</h3>
             <p>
               Lo-fi crucifix mumblecore, hexagon shoreditch swag vinyl austin
               skateboard lyft keytar gastropub yr fanny pack plaid. IPhone
@@ -42,8 +42,8 @@ const Home: NextPage = () => {
             </p>
           </article>
           <article className={css.two_sponsor}>
-            <h3>Comm</h3>
             <img src="https://placekitten.com/250/250" alt="logo" />
+            <h3>Comm</h3>
             <p>
               Everyday carry DIY tbh, hot chicken forage iceland biodiesel pug
               enamel pin sustainable poutine etsy bitters bespoke. Polaroid VHS
@@ -54,9 +54,9 @@ const Home: NextPage = () => {
             </p>
           </article>
           <article className={css.three_sponsor}>
-            <h3>Web3 Corp</h3>
             <img src="https://placekitten.com/250/250" alt="logo" />
             <p>
+              <h3>Web3 Corp</h3>
               Polaroid cold-pressed street art truffaut pop-up tousled. Occupy
               kombucha paleo, ethical craft beer squid actually iceland
               meditation brunch gentrify. Cardigan readymade gochujang
