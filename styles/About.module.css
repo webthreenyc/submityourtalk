@@ -1,0 +1,16 @@
+.body {
+  grid-auto-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    ". hHead hHead hHead hHead hHead hHead hHead hHead hHead hHead hHead hHead . "
+    ". hInfo hInfo hInfo hInfo hInfo hInfo hInfo hInfo hInfo hInfo hInfo hInfo . "
+    ". . . . . . . . . . . . . . "
+    ". . . . . . . . . . . . . . ";
+}
+
+.aboutHeader {
+  grid-area: hHead;
+}
+
+.aboutInfo {
+  grid-area: hInfo;
+}

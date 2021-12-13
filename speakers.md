@@ -34,7 +34,7 @@ We've found that the best talks tell a story, we encourage you to get creative! 
 ## What do speakers get?
 
 - 1 webthree.nyc\* ticket (Free) for you to attend.
-- 1 regular webthree.nyc ticket ($15) for a guest that you'd like to have watch your talk.
+- 1 regular webthree.nyc ticket ($10) for a guest that you'd like to have watch your talk.
 - 10 minutes to present what you are excited about in front of 75 webthree'ers.
 - Up to $150 in travel assistance if you're a speaker outside of the NYC metro area.
 

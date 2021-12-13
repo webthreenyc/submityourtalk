@@ -1,0 +1,22 @@
+.navigation {
+  align-items: center;
+  grid-template-areas: ". logo logo logo . . . . . . sp a s .";
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.about {
+  grid-area: a;
+  text-decoration: none;
+}
+
+.speakers {
+  grid-area: sp;
+}
+
+.sponsor {
+  grid-area: s;
+  text-decoration: none;
+}

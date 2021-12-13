@@ -1,0 +1,47 @@
+.body {
+  min-height: 100%;
+  display: grid;
+  margin: 0 auto;
+  grid-template-areas:
+    ". sHead sHead sHead sHead sHead sHead sHead sHead sHead sHead sHead sHead ."
+    ". cred cred cred cred cred cred cred cred cred cred cred cred ."
+    ". sInfo sInfo sInfo sInfo sInfo sInfo sInfo sInfo sInfo sInfo sInfo sInfo ."
+    ". . . . . . . . . . . . . .";
+}
+
+.sponsorHeader {
+  grid-area: sHead;
+  justify-self: center;
+}
+
+.credit {
+  grid-area: cred;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.sponsorContent {
+  grid-area: sInfo;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+
+.sponsorContent > p {
+  padding-bottom: 20px;
+}
+
+.sponsorship_packages {
+  display: flex;
+  list-style: none;
+  flex-grow: 1;
+  justify-content: space-evenly;
+  padding-inline-start: 0;
+}
+
+.packages {
+  display: flex;
+  flex-direction: column;
+}

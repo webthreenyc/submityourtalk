@@ -1,0 +1,22 @@
+.footer {
+  align-items: center;
+  justify-content: center;
+  grid-template-areas: ". cond cond cond cond cond cond cond . . . . . . ";
+}
+
+.more_info {
+  display: flex;
+  flex-grow: 1;
+  list-style: none;
+  grid-area: mInfo;
+  justify-content: center;
+}
+
+.more_info > ul {
+  list-style: none;
+  display: flex;
+}
+
+.conduct {
+  grid-area: cond;
+}

@@ -1,10 +1,9 @@
-.navigation {
-  grid-template-areas: ". logo logo logo . . . . sp a s n t .";
-}
-
 .body {
+  background-size: 100%;
+  background-position: center;
+  background-image: url(../images/bbburst.svg);
   grid-template-areas:
-    ". hInfo hInfo hInfo hInfo hInfo hInfo . hImg hImg hImg hImg hImg . "
+    "hero hero hero hero hero hero hero hero hero hero hero hero hero hero"
     ". spHead spHead spHead spHead spHead spHead spHead spHead spHead spHead spHead spHead . "
     ". sp sp sp sp sp sp sp sp sp sp sp sp . "
     ". aHead aHead aHead aHead aHead aHead aHead aHead aHead aHead aHead aHead . "
@@ -16,42 +15,41 @@
     ". foot foot foot foot foot foot foot foot foot foot foot foot . ";
 }
 
-/* Header Start */
-.logo {
-  grid-area: logo;
-}
-
-.about {
-  grid-area: a;
-}
-
-.speakers {
-  grid-area: sp;
-}
-
-.sponsors {
-  grid-area: s;
-}
-
-.next_event {
-  grid-area: n;
-}
-
-.tickets {
-  grid-area: t;
-}
-
-/* Header End */
-
 /* Hero Start */
+
+.hero {
+  grid-area: hero;
+  display: grid;
+  grid-template-areas: ". hInfo hInfo hInfo hInfo hInfo hInfo . hImg hImg hImg hImg hImg . ";
+}
+
 .hero_image {
   grid-area: hImg;
+}
+
+.hero_image img {
+  border-radius: var(--radius-blob-2);
 }
 
 .hero_content {
   grid-area: hInfo;
   justify-self: center;
   align-self: center;
+}
+
+.hero_content h1 {
+  font-size: var(--font-size-8);
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-7);
+  letter-spacing: var(--font-letterspacing-0);
+}
+
+.hero_content h3 {
+  font-weight: var(--font-weight-5);
+}
+
+.hero_content h4 {
+  font-weight: var(--font-weight-5);
 }
 /* Hero End */
 
@@ -128,29 +126,3 @@
 }
 
 /* Tickets End */
-
-/*  Footer Start */
-.footer {
-  align-items: center;
-  justify-content: center;
-  grid-template-areas: ". cond cond cond cond cond cond cond mInfo mInfo mInfo mInfo mInfo . ";
-}
-
-.more_info {
-  display: flex;
-  flex-grow: 1;
-  list-style: none;
-  grid-area: mInfo;
-  justify-content: center;
-}
-
-.more_info > ul {
-  list-style: none;
-  display: flex;
-}
-
-.conduct {
-  grid-area: cond;
-}
-
-/* Footer End */

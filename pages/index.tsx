@@ -1,5 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Image from "next/image";
+import { Navigation } from "../components/Navigation.component";
 import css from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -10,25 +12,20 @@ const Home: NextPage = () => {
         <meta name="description" content="NYC's web3 developer meetup" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header>
-        <nav className={`container ${css.navigation}`}>
-          <div className={css.logo}>
-            <h1>Logo</h1>
-          </div>
-          <a className={css.about}>about</a>
-          <a className={css.speakers}>speakers</a>
-          <a className={css.sponsors}>sponsors</a>
-          <a className={css.next_event}>next event</a>
-          <a className={css.tickets}>tickets</a>
-        </nav>
-      </header>
+      <Navigation />
       <main className={`container ${css.body}`}>
-        <section className={css.hero_content}>
-          <h1>webthree.nyc</h1>
-          <h4>technical talks for engineers building web3</h4>
-        </section>
-        <div className={css.hero_image}>
-          <img src="https://placekitten.com/600/650" alt="big paralax image" />
+        <div className={css.hero}>
+          <section className={css.hero_content}>
+            <h1>webthree.nyc</h1>
+            <h3>technical talks for engineers building web3</h3>
+            <h4>January 27, 2022</h4>
+          </section>
+          <div className={css.hero_image}>
+            <img
+              src="https://placekitten.com/600/650"
+              alt="big paralax image"
+            />
+          </div>
         </div>
 
         <h2 className={css.sponsorsHeader}>Sponsors</h2>
@@ -139,24 +136,6 @@ const Home: NextPage = () => {
           <p>All proceeds go to a 501-c-3 non-for-profit</p>
         </div>
       </main>
-      <footer className={`container ${css.footer}`}>
-        <p className={css.conduct}>
-          webthree.nyc expects all speakers and attendees to follow the{" "}
-          <a href="https://jsconf.com/codeofconduct.html">
-            JSConf code of conduct
-          </a>{" "}
-          and the{" "}
-          <a href="https://www.recurse.com/social-rules">RC Social Rules</a>
-        </p>
-        <div className={css.more_info}>
-          <p>More information on</p>
-          <ul>
-            <li>Speakers</li>
-            <li>attendees</li>
-            <li>sponsors</li>
-          </ul>
-        </div>
-      </footer>
     </div>
   );
 };
