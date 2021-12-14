@@ -51,10 +51,6 @@ const About: NextPage = () => {
                 </p>
               </li>
             </ul>
-            <p>
-              That could be a blockchain, keyserver, IPFS node or something that
-              you&#39;ve created.
-            </p>
           </section>
         </main>
       </div>
