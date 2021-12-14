@@ -24,10 +24,10 @@ const Sponsors: NextPage = () => {
             </a>
           </h5>
 
-          <h3>What's webthree.nyc?</h3>
+          <h3>What&#39;s webthree.nyc?</h3>
           <p>
             On the last Thursday of every month, the local web3 community meets
-            up to talk about web3 technology and what we're building.
+            up to talk about web3 technology and what we&#39;re building.
           </p>
           <p>
             webthree.nyc starts at 7pm and includes community-curated lightning
@@ -41,8 +41,9 @@ const Sponsors: NextPage = () => {
           </p>
 
           <p>
-            We're currently looking for 3 co-organizers. Please reach out to{" "}
-            <a href="">b@webthree.nyc</a> if you'd like to become an organizer.
+            We&#39;re currently looking for 3 co-organizers. Please reach out to{" "}
+            <a href="">b@webthree.nyc</a> if you&#39;d like to become an
+            organizer.
           </p>
 
           <h3>Sponsorship</h3>
@@ -59,8 +60,9 @@ const Sponsors: NextPage = () => {
               mingle with our attendees.
             </li>
             <li>
-              We'll tweet about you the week of the event. Let us know what you
-              want us to tell folks about! We'll also list you on our website.
+              We&#39;ll tweet about you the week of the event. Let us know what
+              you want us to tell folks about! We&#39;ll also list you on our
+              website.
             </li>
           </ul>
 
@@ -76,7 +78,7 @@ const Sponsors: NextPage = () => {
             <a href="https://freeCodeCamp.org/">freeCodeCamp</a>. Our budget is
             entirely transparent and can be found on our{" "}
             <a href="https://github.com/brooklynjs/brooklynjs.github.io/blob/master/budget.js">
-              Github repository's budget file
+              Github repository&#39;s budget file
             </a>
             .
           </p>
@@ -92,13 +94,13 @@ const Sponsors: NextPage = () => {
           </strong>
           <p>
             Yes! Send an email to{" "}
-            <a href="mailto:b@webthree.nyc">b@webthree.nyc</a> and we'll be
+            <a href="mailto:b@webthree.nyc">b@webthree.nyc</a> and we&#39;ll be
             happy to get you set-up for the next available month.
           </p>
           <h3>Contact Us</h3>
           <p>
-            If you're interested in sponsoring webthree.nyc, reach out to{" "}
-            <a href="mailto:b@webthree.nyc">b@webthree.nyc</a> and we'll be
+            If you&#39;re interested in sponsoring webthree.nyc, reach out to{" "}
+            <a href="mailto:b@webthree.nyc">b@webthree.nyc</a> and we&#39;ll be
             happy to help you out.
           </p>
         </article>

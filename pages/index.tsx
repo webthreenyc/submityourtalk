@@ -39,7 +39,7 @@ const Home: NextPage = () => {
               skateboard lyft keytar gastropub yr fanny pack plaid. IPhone
               drinking vinegar tumeric vinyl ugh hexagon. +1 cardigan DIY
               pickled. Next level sartorial dreamcatcher, waistcoat swag banh mi
-              yr shabby chic pabst ennui you probably haven't heard of them.
+              yr shabby chic pabst ennui you probably haven&#39;t heard of them.
             </p>
           </article>
           <article className={css.two_sponsor}>
@@ -62,7 +62,7 @@ const Home: NextPage = () => {
               kombucha paleo, ethical craft beer squid actually iceland
               meditation brunch gentrify. Cardigan readymade gochujang
               post-ironic pabst. Chicharrones tousled vegan craft beer hammock.
-              You probably haven't heard of them sartorial locavore, chia
+              You probably haven&#39;t heard of them sartorial locavore, chia
               flexitarian synth celiac cold-pressed.
             </p>
           </article>
@@ -75,7 +75,7 @@ const Home: NextPage = () => {
           <h3>Ashoat Tevosyan</h3>
           <h4>Talk: keyservers and you</h4>
           <p>
-            I'm baby poke tattooed fingerstache ethical sustainable cronut
+            I&#39;m baby poke tattooed fingerstache ethical sustainable cronut
             salvia semiotics sartorial lomo schlitz 3 wolf moon keffiyeh
             pinterest. Actually everyday carry selvage poutine. Church-key
             shoreditch keytar hashtag vape fixie chartreuse, mixtape VHS
@@ -90,12 +90,12 @@ const Home: NextPage = () => {
         <article className={css.speaker_two}>
           <img src="https://placekitten.com/150/150" alt="" />
           <h3>Atul Madhugiri</h3>
-          <h4>Talk: Moving comm's threading model to C++ and SQL Lite</h4>
+          <h4>Talk: Moving comm&#39;s threading model to C++ and SQL Lite</h4>
           <p>
             Salvia yuccie hashtag kinfolk tattooed pork belly. Jean shorts
             street art hoodie cray, bushwick put a bird on it tumblr synth.
             Readymade lumbersexual kombucha copper mug scenester, +1 mlkshk
-            crucifix 90's. XOXO cloud bread franzen, celiac marfa ugh plaid
+            crucifix 90&#39;s. XOXO cloud bread franzen, celiac marfa ugh plaid
             aesthetic readymade pork belly pabst gastropub lyft gentrify
             tumeric.
           </p>
@@ -113,20 +113,21 @@ const Home: NextPage = () => {
           <h3>Benjamin Schachter</h3>
           <h4>Talk: Why you should marry your JPEG, and how to do it</h4>
           <p>
-            I'm baby la croix paleo master cleanse butcher activated charcoal
-            poutine DIY enamel pin. Gastropub roof party cliche gluten-free next
-            level. Green juice aesthetic before they sold out brunch, organic
-            man braid fanny pack farm-to-table 8-bit man bun neutra lomo tacos
-            air plant. Lyft 8-bit ethical messenger bag palo santo four loko
-            street art listicle swag cray williamsburg selvage glossier. Echo
-            park flannel messenger bag sartorial before they sold out.
+            I&#39;m baby la croix paleo master cleanse butcher activated
+            charcoal poutine DIY enamel pin. Gastropub roof party cliche
+            gluten-free next level. Green juice aesthetic before they sold out
+            brunch, organic man braid fanny pack farm-to-table 8-bit man bun
+            neutra lomo tacos air plant. Lyft 8-bit ethical messenger bag palo
+            santo four loko street art listicle swag cray williamsburg selvage
+            glossier. Echo park flannel messenger bag sartorial before they sold
+            out.
           </p>
         </article>
 
         <article className={css.speaker_four}>
           <img src="https://placekitten.com/150/150" alt="" />
           <h3>You!</h3>
-          <h4>Talk: We'd love to hear what you're working on!</h4>
+          <h4>Talk: We&#39;d love to hear what you&#39;re working on!</h4>
           <p>Go to our github and open an issue.</p>
         </article>
 

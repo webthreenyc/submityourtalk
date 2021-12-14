@@ -25,13 +25,13 @@ const About: NextPage = () => {
               in length.
             </p>
             <p>
-              The only requirement to give a talk is what's being presented is
-              interfacing with a decentralized technology, or is a decentralized
-              technology.
+              The only requirement to give a talk is what&#39;s being presented
+              is interfacing with a decentralized technology, or is a
+              decentralized technology.
             </p>
             <p>
               That could be a blockchain, keyserver, IPFS node or something that
-              you've created.
+              you&#39;ve created.
             </p>
           </section>
         </main>
