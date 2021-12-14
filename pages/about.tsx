@@ -26,9 +26,31 @@ const About: NextPage = () => {
             </p>
             <p>
               The only requirement to give a talk is what&#39;s being presented
-              is interfacing with a decentralized technology, or is a
-              decentralized technology.
+              is:
             </p>
+            <ul>
+              <li>
+                <p>
+                  Interfaces with a decentralized technology. Examples include
+                  IPFS, Arweave, Solana, Uniswap, a Dune.xyz dashboard you
+                  built, a subgraph you authored, etc.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Describes mechanics of web3 actions / technologies. Examples,
+                  how MEV works, a new quadratic bonding curve implementation,
+                  what a ZK-rollup does.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Is a decentralized technology. Examples, you wrote a
+                  blockchain, rollup or system that decentralizes data from a
+                  centralized source.
+                </p>
+              </li>
+            </ul>
             <p>
               That could be a blockchain, keyserver, IPFS node or something that
               you&#39;ve created.

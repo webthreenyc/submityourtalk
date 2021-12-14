@@ -25,6 +25,10 @@
   box-shadow: var(--shadow-2);
 }
 
+.aboutInfo + ul {
+  padding-bottom: var(--size-8);
+}
+
 .aboutInfo p {
   font-size: var(--font-size-fluid-1);
 }
