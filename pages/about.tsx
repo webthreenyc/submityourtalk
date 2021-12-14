@@ -24,6 +24,15 @@ const About: NextPage = () => {
               technical complexity. Talks range in length from 5 to 15 minutes
               in length.
             </p>
+            <p>
+              The only requirement to give a talk is what's being presented is
+              interfacing with a decentralized technology, or is a decentralized
+              technology.
+            </p>
+            <p>
+              That could be a blockchain, keyserver, IPFS node or something that
+              you've created.
+            </p>
           </section>
         </main>
       </div>

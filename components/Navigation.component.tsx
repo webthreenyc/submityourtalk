@@ -7,11 +7,6 @@ export const Navigation: React.FC<NavigationProps> = (props) => {
   return (
     <header>
       <nav className={`container ${css.navigation}`}>
-        <div className={css.logo}>
-          <Link href="/">
-            <h1>Logo</h1>
-          </Link>
-        </div>
         <Link href="/about">
           <a className={css.about}>about</a>
         </Link>

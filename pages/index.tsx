@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import { Footer } from "../components/Footer.component";
 import { Navigation } from "../components/Navigation.component";
 import css from "../styles/Home.module.css";
 
@@ -132,10 +133,11 @@ const Home: NextPage = () => {
         <h3 className={css.ticketHeader}>Tickets</h3>
         <div className={css.ticketInfo}>
           <h4>Price: $10</h4>
-          <p>We charge $10 per ticket to ensure people who register show up</p>
           <p>All proceeds go to a 501-c-3 non-for-profit</p>
+          <button>Ticket</button>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };

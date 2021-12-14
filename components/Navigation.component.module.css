@@ -1,6 +1,12 @@
 .navigation {
   align-items: center;
+  padding: var(--size-4) 0;
   grid-template-areas: ". logo logo logo . . . . . . sp a s .";
+}
+
+.navigation a {
+  font-size: var(--size-4);
+  color: var(--text-1);
 }
 
 .logo {

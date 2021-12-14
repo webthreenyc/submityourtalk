@@ -2,6 +2,7 @@
   align-items: center;
   justify-content: center;
   grid-template-areas: ". cond cond cond cond cond cond cond . . . . . . ";
+  padding: var(--size-4) 0;
 }
 
 .more_info {

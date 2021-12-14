@@ -3,6 +3,7 @@
   background-position: center;
   background-image: url(../images/bbburst.svg);
   row-gap: var(--size-8);
+  grid-auto-rows: max-content;
   grid-template-areas:
     "hero hero hero hero hero hero hero hero hero hero hero hero hero hero"
     ". spHead spHead spHead spHead spHead spHead spHead spHead spHead spHead spHead spHead . "
@@ -22,6 +23,14 @@
   grid-area: hero;
   display: grid;
   grid-template-areas: ". hInfo hInfo hInfo hInfo hInfo hInfo . hImg hImg hImg hImg hImg . ";
+}
+
+@media screen and (max-width: 1099px) {
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+  }
 }
 
 .hero_image {
@@ -127,22 +136,90 @@
 .speakers_header {
   grid-area: aHead;
   justify-self: center;
+  font-size: var(--font-size-7);
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-7);
+  letter-spacing: var(--font-letterspacing-0);
 }
 
 .speaker_one {
   grid-area: s_one;
 }
 
+.speaker_one img {
+  border-radius: var(--radius-6);
+}
+
+.speaker_one h3 {
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-7);
+  letter-spacing: var(--font-letterspacing-0);
+}
+
+.speaker_one h4 {
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-7);
+  letter-spacing: var(--font-letterspacing-0);
+}
+
 .speaker_two {
   grid-area: s_two;
+}
+
+.speaker_two img {
+  border-radius: var(--radius-6);
+}
+
+.speaker_two h3 {
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-7);
+  letter-spacing: var(--font-letterspacing-0);
+}
+
+.speaker_two h4 {
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-7);
+  letter-spacing: var(--font-letterspacing-0);
 }
 
 .speaker_three {
   grid-area: s_three;
 }
 
+.speaker_three img {
+  border-radius: var(--radius-6);
+}
+
+.speaker_three h3 {
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-7);
+  letter-spacing: var(--font-letterspacing-0);
+}
+
+.speaker_three h4 {
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-7);
+  letter-spacing: var(--font-letterspacing-0);
+}
+
 .speaker_four {
   grid-area: s_four;
+}
+
+.speaker_four img {
+  border-radius: var(--radius-6);
+}
+
+.speaker_four h3 {
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-7);
+  letter-spacing: var(--font-letterspacing-0);
+}
+
+.speaker_four h4 {
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-7);
+  letter-spacing: var(--font-letterspacing-0);
 }
 
 .sspeakers_info {
@@ -160,10 +237,24 @@
 .ticketHeader {
   grid-area: tHead;
   justify-self: center;
+  font-size: var(--font-size-7);
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-7);
+  letter-spacing: var(--font-letterspacing-0);
 }
 
 .ticketInfo {
   grid-area: tInfo;
+  justify-self: center;
+  align-self: baseline;
+  min-height: 300px;
+}
+
+.ticketInfo h4 {
+  font-size: var(--font-size-7);
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-7);
+  letter-spacing: var(--font-letterspacing-0);
 }
 
 /* Tickets End */
