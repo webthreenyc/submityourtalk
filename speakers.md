@@ -11,7 +11,7 @@ Whether you have been writing code for 20 years or few days, experienced or 1st 
 
 ## How do I submit a talk?
 
-Visit the our site GitHub repository and [create a new issue](https://github.com/webthreenyc/submityourtalk/issues) using the template. Make sure to pick up to 3 months that work for you!
+Visit the our site GitHub repository and [create a new issue](https://github.com/webthreenyc/submityourtalk/issues) using the template. Make sure to pick up to 3 months that work for you in the label section.
 
 ## What would be a good talk topic?
 
@@ -30,6 +30,12 @@ Examples of topics that may not get accepted:
 - Startup or company pitches.
 
 We've found that the best talks tell a story, we encourage you to get creative! Browse past [accepted talks](https://github.com/brooklynjs/brooklynjs.github.io/issues?q=is%3Aissue+label%3Aaccepted+is%3Aclosed) to get ideas and inspiration.
+
+The only requirement is the subject of the talk:
+
+- Interfaces with a decentralized technology. Examples include IPFS, Arweave, Solana, Uniswap.
+- Describes mechanics of web3 actions / technologies. Examples, how MEV works, a new quadratic bonding curve implementation, what a ZK-rollup does.
+- Is a decentralized technology. Examples, you wrote a blockchain, rollup or system that decentralizes data from a centralized source.
 
 ## What do speakers get?
 
