@@ -17,6 +17,18 @@
     ". foot foot foot foot foot foot foot foot foot foot foot foot . ";
 }
 
+.logo {
+  background-image: url(../images/web.svg);
+  background-size: contain;
+  font-size: 20rem;
+  text-align: center;
+  background-position: center center;
+  color: #64bbb8;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  text-shadow: 5px 5px 0px #6866b1, 10px 10px 0px #fccdb3;
+}
+
 /* Hero Start */
 
 .hero {
@@ -48,7 +60,7 @@
 }
 
 .hero_content h1 {
-  font-size: var(--font-size-8);
+  font-size: 68px;
   font-family: var(--font-sans);
   font-weight: var(--font-weight-7);
   letter-spacing: var(--font-letterspacing-0);

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
@@ -12,6 +13,25 @@ const Home: NextPage = () => {
         <title>webthree.nyc</title>
         <meta name="description" content="NYC's web3 developer meetup" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          rel="preload"
+          as="style"
+          href="https://fonts.googleapis.com/css2?family=Angkor&family=Inter:wght@400;500;600&display=swap"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Angkor&family=Inter:wght@400;500;600&display=swap"
+          media="print"
+          // @ts-expect-error
+          onLoad="this.media='all'"
+        />
+        <noscript>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Angkor&family=Inter:wght@400;500;600&display=swap"
+          />
+        </noscript>
       </Head>
       <Navigation />
       <main className={`container ${css.body}`}>
@@ -22,10 +42,7 @@ const Home: NextPage = () => {
             <h4>January 27, 2022</h4>
           </section>
           <div className={css.hero_image}>
-            <img
-              src="https://placekitten.com/600/650"
-              alt="big paralax image"
-            />
+            <h1 className={css.logo}>3</h1>
           </div>
         </div>
 
