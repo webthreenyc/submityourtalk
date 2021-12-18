@@ -262,11 +262,20 @@
   min-height: 300px;
 }
 
-.ticketInfo h4 {
+.ticketInfo p {
   font-size: var(--font-size-7);
   font-family: var(--font-sans);
   font-weight: var(--font-weight-7);
   letter-spacing: var(--font-letterspacing-0);
+}
+
+.ticketPrice {
+  font-size: var(--font-size-7);
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-7);
+  grid-area: tPrice;
+  justify-self: center;
+  align-self: center;
 }
 
 /* Tickets End */

@@ -150,9 +150,11 @@ const Home: NextPage = () => {
 
         <h3 className={css.ticketHeader}>Tickets</h3>
         <div className={css.ticketInfo}>
-          <h4>Price: $10</h4>
+          <p>
+            webthree.nyc starts at 7pm and includes community-curated lightning
+            talks, food, and a post-talk hangout. Admission is $10.
+          </p>
           <p>All proceeds go to a 501-c-3 non-for-profit</p>
-          <button>Ticket</button>
         </div>
       </main>
       <Footer />

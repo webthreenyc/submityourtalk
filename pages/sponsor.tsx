@@ -42,7 +42,7 @@ const Sponsors: NextPage = () => {
 
           <p>
             We&#39;re currently looking for 3 co-organizers. Please reach out to{" "}
-            <a href="">b@webthree.nyc</a> if you&#39;d like to become an
+            <a href="">ben@webthree.nyc</a> if you&#39;d like to become an
             organizer.
           </p>
 
@@ -69,7 +69,7 @@ const Sponsors: NextPage = () => {
           <strong>How do I buy a sponsorship ticket?</strong>
           <p>
             You can purchase sponsorship by sending an email to{" "}
-            <a href="mailto:b@webthree.nyc">b@webthree.nyc</a>.
+            <a href="mailto:ben@webthree.nyc">ben@webthree.nyc</a>.
           </p>
           <strong>Where does the sponsorship money go?</strong>
           <p>
@@ -94,14 +94,14 @@ const Sponsors: NextPage = () => {
           </strong>
           <p>
             Yes! Send an email to{" "}
-            <a href="mailto:b@webthree.nyc">b@webthree.nyc</a> and we&#39;ll be
-            happy to get you set-up for the next available month.
+            <a href="mailto:ben@webthree.nyc">ben@webthree.nyc</a> and we&#39;ll
+            be happy to get you set-up for the next available month.
           </p>
           <h3>Contact Us</h3>
           <p>
             If you&#39;re interested in sponsoring webthree.nyc, reach out to{" "}
-            <a href="mailto:b@webthree.nyc">b@webthree.nyc</a> and we&#39;ll be
-            happy to help you out.
+            <a href="mailto:ben@webthree.nyc">ben@webthree.nyc</a> and we&#39;ll
+            be happy to help you out.
           </p>
         </article>
       </main>
