@@ -152,9 +152,13 @@ const Home: NextPage = () => {
         <div className={css.ticketInfo}>
           <p>
             webthree.nyc starts at 7pm and includes community-curated lightning
-            talks, food, and a post-talk hangout. Admission is $10.
+            talks, food, and a post-talk hangout.
           </p>
-          <p>All proceeds go to a 501-c-3 non-for-profit</p>
+          <p>Admission is $10.</p>
+          <p>
+            All remaining money is donated to amazing charities that share our
+            values.
+          </p>
         </div>
       </main>
       <Footer />
