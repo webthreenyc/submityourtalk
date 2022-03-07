@@ -2,8 +2,6 @@
 
 Credit: [BrookylnJS speakers.md](https://github.com/brooklynjs/brooklynjs.github.io/blob/master/speakers.md)
 
-This page was taken and edited from BrooklynJS speakers.md for webthree.nyc
-
 ## Who can submit talks to webthree.nyc?
 
 We welcome & encourage _everyone_ to submit a talk!
@@ -75,8 +73,8 @@ If you are live coding or showing your terminal etc, please keep your font size 
 We have:
 
 - WiFi
-- VGA
-- VGA to Thunderbolt and VGA to USB-C adapters
+- usb-c
+- hdmi
 
 Please bring any adapters if you need special one. We can also bring a portable speaker if you have audio in your demo or presentation. Please let us know in advance. If you have any other needs for your talk, feel free to contact the organizers.
 
