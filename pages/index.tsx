@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable @next/next/no-page-custom-font */
 import type { NextPage } from "next";
 import Head from "next/head";
@@ -89,56 +90,23 @@ const Home: NextPage = () => {
 
         <article className={css.speaker_one}>
           <img src="https://placekitten.com/150/150" alt="" />
-          <h3>Ashoat Tevosyan</h3>
-          <h4>Talk: keyservers and you</h4>
-          <p>
-            I&#39;m baby poke tattooed fingerstache ethical sustainable cronut
-            salvia semiotics sartorial lomo schlitz 3 wolf moon keffiyeh
-            pinterest. Actually everyday carry selvage poutine. Church-key
-            shoreditch keytar hashtag vape fixie chartreuse, mixtape VHS
-            actually gentrify meh lo-fi ugh. Beard pinterest butcher, pabst
-            meggings street art waistcoat lo-fi. Pok pok aesthetic microdosing
-            kickstarter street art, hot chicken truffaut. Kombucha flannel
-            farm-to-table, tbh shoreditch austin fingerstache poke migas
-            truffaut readymade gentrify.
-          </p>
+          <h3>You!</h3>
+          <h4>Talk: We&#39;d love to hear what you&#39;re working on!</h4>
+          <p>Go to our github and open an issue.</p>
         </article>
 
         <article className={css.speaker_two}>
           <img src="https://placekitten.com/150/150" alt="" />
-          <h3>Atul Madhugiri</h3>
-          <h4>Talk: Moving comm&#39;s threading model to C++ and SQL Lite</h4>
-          <p>
-            Salvia yuccie hashtag kinfolk tattooed pork belly. Jean shorts
-            street art hoodie cray, bushwick put a bird on it tumblr synth.
-            Readymade lumbersexual kombucha copper mug scenester, +1 mlkshk
-            crucifix 90&#39;s. XOXO cloud bread franzen, celiac marfa ugh plaid
-            aesthetic readymade pork belly pabst gastropub lyft gentrify
-            tumeric.
-          </p>
-          <p>
-            Cornhole marfa health goth, messenger bag narwhal actually DIY
-            shaman next level lo-fi. Kinfolk next level tumblr, typewriter
-            cold-pressed plaid taiyaki iceland viral hexagon farm-to-table. Af
-            cray 3 wolf moon health goth. Tofu iPhone jianbing next level
-            poutine succulents.
-          </p>
+          <h3>You!</h3>
+          <h4>Talk: We&#39;d love to hear what you&#39;re working on!</h4>
+          <p>Go to our github and open an issue.</p>
         </article>
 
         <article className={css.speaker_three}>
           <img src="https://placekitten.com/150/150" alt="" />
-          <h3>Benjamin Schachter</h3>
-          <h4>Talk: Why you should marry your JPEG, and how to do it</h4>
-          <p>
-            I&#39;m baby la croix paleo master cleanse butcher activated
-            charcoal poutine DIY enamel pin. Gastropub roof party cliche
-            gluten-free next level. Green juice aesthetic before they sold out
-            brunch, organic man braid fanny pack farm-to-table 8-bit man bun
-            neutra lomo tacos air plant. Lyft 8-bit ethical messenger bag palo
-            santo four loko street art listicle swag cray williamsburg selvage
-            glossier. Echo park flannel messenger bag sartorial before they sold
-            out.
-          </p>
+          <h3>You!</h3>
+          <h4>Talk: We&#39;d love to hear what you&#39;re working on!</h4>
+          <p>Go to our github and open an issue.</p>
         </article>
 
         <article className={css.speaker_four}>
