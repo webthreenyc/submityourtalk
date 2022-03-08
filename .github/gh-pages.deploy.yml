@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [gh-pages]
 
 jobs:
   build:
@@ -10,13 +10,13 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [16.x]
 
     steps:
       - name: npm install -g yarn
         run: npm install -g yarn
-      - name: yarn
-        run: yarn
+      - name: yarn --frozen-lockfile
+        run: yarn --frozen-lockfile
       - name: Get files
         uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
